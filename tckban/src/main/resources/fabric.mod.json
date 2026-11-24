@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tckban",
+  "version": "${version}",
+  "name": "TCK Ban",
+  "description": "При бане игрока за ним приезжает бусик ТЦК, его запихивают в багажник и увозят.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.tckban.TckBanMod"]
+  },
+  "mixins": ["tckban.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
